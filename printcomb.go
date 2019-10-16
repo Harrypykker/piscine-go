@@ -14,6 +14,7 @@ func PrintComb() {
 					z01.PrintRune(32)
 				} else {
 					z01.PrintRune(10)
+					
 				}
 			}
 		}
