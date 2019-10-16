@@ -10,8 +10,8 @@ func PrintComb() {
 				z01.PrintRune(y)
 				z01.PrintRune(z)
 				if x < '7' {
-				z01.PrintRune(44)
-				z01.PrintRune(32)
+					z01.PrintRune(44)
+					z01.PrintRune(32)
 				} else {
 					z01.PrintRune(10)
 				}
