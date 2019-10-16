@@ -2,9 +2,9 @@ package main
 
 import "github.com/01-edu/z01"
 
-func main(){
+func main() {
 	var i = 'z'
-	for i >= 'a'{
+	for i >= 'a' {
 		z01.PrintRune(i)
 		i--
 	}
