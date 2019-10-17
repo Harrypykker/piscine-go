@@ -1,9 +1,19 @@
 package piscine
 
-func StrRev(s string) string {
-	var rev string
-	for i := len(s) - 1; i >= 0; i-- {
-		rev = string(s[i])
+func dop(str string) int {
+	len_1 := 0
+	str1 := []rune(str)
+	for i := range str1 {
+		len_1 = i + 1
 	}
-	return rev
+	return len_1
+}
+
+func StrRev(s string) string {
+	last_string := ""
+	len_s := dop(s)
+	for i := len_s - 1; i >= 0; i-- {
+		last_string += string(s[i])
+	}
+	return last_string
 }
