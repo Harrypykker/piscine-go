@@ -7,5 +7,4 @@ func StrLen(str string) int {
 		r = r + 1
 	}
 	z01.PrintRune(r)
-	
 }
