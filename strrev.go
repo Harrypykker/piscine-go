@@ -1,10 +1,8 @@
 package piscine
 
-import "fmt"
-
 func StrRev(s string) {
 	var rev string
-	for i := len(s); i >= 0; i-- {
+	for i := len(s)-1; i >= 0; i-- {
 		rev = string(s[i])
 	}
 	return rev
