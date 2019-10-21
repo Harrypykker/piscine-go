@@ -1,6 +1,6 @@
 package piscine
 
-func iterativepower(nb int, power int) int {
+func IterativePower(nb int, power int) int {
 	if nb >= 0 {
 		result := 1
 		for i := 1; i <= power; i++ {
