@@ -3,7 +3,7 @@ package piscine
 func AlphaCount(str string) int {
 	i := 0
 	for letter := range str {
-		if (letter > "a" && letter < "z") || (letter > "A" && letter < "Z") {
+		if ([]rune(letter) > "a" && []rune(letter) < "z") || ([]rune(letter) > "A" && []rune(letter) < "Z") {
 			i++
 		}
 	}
