@@ -1,7 +1,9 @@
 package piscine
 
 func AlphaCount(str string) int {
-	for index, letter := range str {
-		fmt.Println("letter: %c\n")
+	for letter := range str {
+		fmt.Println(str)
+		fmt.Println("letter: %c\n", letter)
 	}
+	return 0
 }
