@@ -1,8 +1,8 @@
 package piscine
 
-func AlphaCount(s string) int {
+func AlphaCount(str string) int {
 	i := 0
-	for _, r := range s {
+	for _, r := range str {
 		if (r >= 'a' && r <= 'z') || (r >= 'A' && r <= 'Z') {
 			i++
 		}
