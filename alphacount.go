@@ -1,9 +1,9 @@
 package piscine
 
-func AlphaCount(str string) int {
+func AlphaCount(s string) int {
 	i := 0
-	for letter := range str {
-		if ([]rune(letter) > "a" && []rune(letter) < "z") || ([]rune(letter) > "A" && []rune(letter) < "Z") {
+	for _, r := range s {
+		if (r >= 'a' && r <= 'z') || (r >= 'A' && r <= 'Z') {
 			i++
 		}
 	}
