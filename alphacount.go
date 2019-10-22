@@ -1,11 +1,10 @@
 package piscine
 
-import "fmt"
-
 func AlphaCount(str string) int {
+	i := 0
 	for letter := range str {
-		fmt.Println(str)
-		fmt.Println("letter: %c\n", letter)
+		i++
+		fmt.Printf("%c", letter)
 	}
-	return 0
+	return i
 }
