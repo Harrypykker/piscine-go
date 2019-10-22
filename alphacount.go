@@ -1,9 +1,9 @@
 package piscine
 
-import "github.com/01-edu/z01.PrintRune"
+import "fmt"
 
 func AlphaCount(str string) int {
 	for index, letter := range str {
-		z01.PrintRune("letter: %c\n")
+		fmt.PrintRune("letter: %c\n")
 	}
 }
