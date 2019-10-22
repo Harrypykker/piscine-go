@@ -1,5 +1,7 @@
 package piscine
 
+import "fmt"
+
 func AlphaCount(str string) int {
 	for letter := range str {
 		fmt.Println(str)
