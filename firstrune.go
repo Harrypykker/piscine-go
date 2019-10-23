@@ -1,7 +1,11 @@
 package piscine
 
 func FirstRune(s string) rune {
-	runes := []rune(s)
-	safeSubstring := string(runes[0:1])
-	fmt.Println(safeSubstring)
+	var first rune
+	for _, c := range s {
+		first = c
+		break
+	}
+	fmt.Print(first)
+	return 0
 }
