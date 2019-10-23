@@ -1,5 +1,7 @@
 package piscine
 
+import "fmt"
+
 func FirstRune(s string) rune {
 	var first rune
 	for _, c := range s {
