@@ -1,4 +1,4 @@
-package piscine 
+package piscine
 
 func MakeRange(min, max int) []int {
 	if max-min >= 0 {
